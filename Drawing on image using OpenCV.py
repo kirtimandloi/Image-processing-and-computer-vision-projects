@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Screenshot 2023-09-08 181347.png")
+img = cv2.imread("path of image.png")
 img = cv2.resize(img,(600,700))
 
 #Creating Blank Image/White Image---
