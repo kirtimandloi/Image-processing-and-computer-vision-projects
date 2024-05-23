@@ -14,5 +14,5 @@ if k == ord("q"):
     cv2.destroyAllWindows()
     
 elif k == ord("s"):
-    cv2.imwrite("C:\\Users\\LENOVO\\Desktop\\Image processing and Computer Vision\\output.png",img1)  #it accept name of image and data
+    cv2.imwrite("name-and-location-of-folder-and-output.png",img1)  #it accept name of image and data
     cv2.destroyAllWindows()
