@@ -1,12 +1,12 @@
 #Break video into multiple images and store in a folder
 import cv2
 
-vidcap = cv2.VideoCapture("C:\\Users\\LENOVO\\Desktop\\Image processing and Computer Vision\\test2.mp4")
+vidcap = cv2.VideoCapture("path of video.mp4")
 ret,image=vidcap.read()
 count=0
 while True:
     if ret == True:
-        cv2.imwrite("C:\\Users\\LENOVO\\Desktop\\Image processing and Computer Vision\\frames\\imgN%d.jpg"%count, image)
+        cv2.imwrite("path of folder where you want to save images\\imgN%d.jpg"%count, image)
         vidcap.set(cv2.CAP_PROP_POS_MSEC,(count**100))
         ret,image = vidcap.read()
         cv2.imshow("ret", image)
