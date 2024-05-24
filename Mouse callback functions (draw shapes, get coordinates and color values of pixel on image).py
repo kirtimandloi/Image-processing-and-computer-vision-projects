@@ -47,7 +47,7 @@ def mouse_event(event, x, y, flg, param):
         cv2.imshow('image', img)
 
 #img = np.zeros((512, 512, 3), np.uint8) - black immage
-img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\Image processing and Computer Vision\\Screenshot 2023-09-08 181347.png")
+img = cv2.imread("imagePath.png")
 cv2.imshow('image', img)
 
 cv2.setMouseCallback('image', mouse_event)
