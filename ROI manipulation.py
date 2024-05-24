@@ -1,7 +1,7 @@
 import cv2
 
 
-img = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\thor.jpg")
+img = cv2.imread(r"1st_image_path.jpg")
 img = cv2.resize(img,(800,800))
 
 #Now extract  area of interest from an image
@@ -24,7 +24,7 @@ cv2.imshow("original image==",img)
 
 #Now try to use one image data into another image
 
-img1 = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\ironman.jpg")
+img1 = cv2.imread(r"2nd_image_path.jpg")
 img1 = cv2.resize(img1,(900,600))
 img1[1:156,560:680] = roi
 
