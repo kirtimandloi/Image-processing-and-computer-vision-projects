@@ -3,9 +3,9 @@
 import numpy as np
 import cv2 as cv 
 #read two different images of same channel
-img1 = cv.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\thor.jpg")
+img1 = cv.imread(r"C:\thor.jpg")
 img1 = cv.resize(img1,(500,700))
-img2 = cv.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\ironman.jpg")
+img2 = cv.imread(r"C:\ironman.jpg")
 img2 = cv.resize(img2,(500,700))
     
 def blend(x):
