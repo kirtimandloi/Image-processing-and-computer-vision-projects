@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-frame = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\color_balls.jpg")
+frame = cv2.imread(r"C:\color_balls.jpg")
 frame = cv2.resize(frame,(400,400))
 #Binding Color Trackbars with image
 def nothing(x):
