@@ -5,9 +5,9 @@
 import cv2
 
 #read two different images of same channel
-img1 = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\thor.jpg")
+img1 = cv2.imread(r"C:\thor.jpg")
 img1 = cv2.resize(img1,(500,700))
-img2 = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\ironman.jpg")
+img2 = cv2.imread(r"C:\ironman.jpg")
 img2 = cv2.resize(img2,(500,700))
 cv2.imshow("thor==",img1)
 cv2.imshow("bro_thor==",img2)
