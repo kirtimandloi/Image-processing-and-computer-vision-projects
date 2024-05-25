@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-frame = cv2.imread(r"C:\Users\LENOVO\Desktop\Image processing and Computer Vision\color_balls.jpg")
+frame = cv2.imread(r"C:\color_balls.jpg")
 
 while True:
     hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
